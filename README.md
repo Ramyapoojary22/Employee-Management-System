@@ -44,3 +44,7 @@ How to Run the Project
 Author
 
 Ramya
+## Project Screenshot
+
+![Employee Management System](Screenshot%202026-11-22%20105609.png)
+

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Management System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="header">
+    <h2>Employee Management System</h2>
+    <div class="admin">👤 Admin</div>
+</div>
+
+<div class="navbar">
+    <a href="/">Dashboard</a>
+    <a href="/add">Add Employee</a>
+    <a href="/view">View Employees</a>
+    <a href="/search">Search</a>
+    <a href="/logout">Logout</a>
+</div>
+
+<div class="container">
+    <h1>Dashboard</h1>
+
+    <div class="cards">
+        <div class="card">
+            <h3>Total Employees</h3>
+            <p>{{total}}</p>
+        </div>
+
+        <div class="card">
+            <h3>Departments</h3>
+            <p>{{departments}}</p>
+        </div>
+
+        <div class="card">
+            <h3>New Employees</h3>
+            <p>{{new_employees}}</p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

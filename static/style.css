@@ -1,0 +1,151 @@
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#0B1F3A;
+}
+
+.header{
+    background:#08182E;
+    color:white;
+    padding:20px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.admin{
+    font-size:18px;
+    font-weight:bold;
+}
+
+.navbar{
+    background:#10294D;
+    padding:15px;
+}
+
+.navbar a{
+    color:white;
+    text-decoration:none;
+    margin-right:25px;
+    font-weight:bold;
+}
+
+.navbar a:hover{
+    color:#FFD700;
+}
+
+.container{
+    width:90%;
+    margin:40px auto;
+}
+
+h1{
+    color:white;
+    text-align:center;
+}
+
+.cards{
+    display:flex;
+    justify-content:space-around;
+    margin-top:40px;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:white;
+    width:250px;
+    padding:30px;
+    border-radius:10px;
+    text-align:center;
+    box-shadow:0 4px 10px rgba(0,0,0,.3);
+    margin:15px;
+}
+
+.card h3{
+    color:#0B1F3A;
+}
+
+.card p{
+    font-size:28px;
+    color:#333;
+    font-weight:bold;
+}
+form{
+    width:350px;
+    margin:auto;
+}
+
+input{
+    width:100%;
+    padding:12px;
+    border-radius:6px;
+    border:1px solid #ccc;
+    font-size:16px;
+}
+
+button{
+    width:100%;
+}
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:30px;
+    color:white;
+}
+
+table th{
+    background:#10294D;
+    color:white;
+    padding:12px;
+    text-align:center;
+}
+
+table td{
+    color:white;
+    padding:12px;
+    text-align:center;
+    border:1px solid white;
+}
+.login-box{
+    width:400px;
+    margin:100px auto;
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    text-align:center;
+    box-shadow:0 4px 10px rgba(0,0,0,0.3);
+}
+
+.login-box h1{
+    color:#0B1F3A;
+    font-size:24px;
+    margin-bottom:25px;
+}
+
+.login-box h2{
+    color:#0B1F3A;
+    margin-bottom:20px;
+}
+
+.login-box input{
+    width:90%;
+    padding:12px;
+    margin:10px;
+    border-radius:6px;
+    border:1px solid #ccc;
+}
+
+.login-box button{
+    width:95%;
+    padding:12px;
+    background:#0B1F3A;
+    color:white;
+    border:none;
+    border-radius:6px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+.login-box button:hover{
+    background:#10294D;
+}
